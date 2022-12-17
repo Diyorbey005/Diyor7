@@ -1,0 +1,221 @@
+*{
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+* button{
+ width: 175px;
+ height: 53px;
+ border-radius: 5px;
+ background-color: #02897A;
+ color: white;
+ border-color: #02897A;
+}
+
+
+.wrapper{
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+header{
+  width: 1400px;
+  height: 80px;
+  /* border: 1px solid; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+background-color: white;
+}
+
+.header-list{
+  display: flex;
+  margin-right: -300px;
+  margin-bottom: 35px;
+}
+
+.header-list li{
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.sing-list{
+  display:flex ;
+  justify-content: space-evenly;
+}
+
+.sing-list li{
+  margin-left: 20px;
+}
+
+.list-button{
+  width: 110px;
+  height: 43px;
+  border-radius: 5px;
+color: #02897A;
+background-color: white;
+border: 2px solid #02897A;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hearor{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  /* border-bottom: 1px solid; */
+}
+
+.hearor div{
+  margin-top: 100px;
+  margin-left:130PX;
+  margin-right: 120px;
+}
+.hearor h1{
+  font-size: 40px;
+}
+
+.hearor p{
+  font-size: 18px;
+}
+
+.box{
+  /* border: 1px solid; */
+  text-align: center;
+  background-image: url(/img/Bg.png);
+
+}
+
+.box-item{
+display: flex;
+justify-content: space-around;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+
+.asosiy-bolim{
+  width: 100%;
+  height: auto;
+margin-top: 80px;
+}
+
+.list-item{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fikrlar-bolim{
+text-align: center;
+}
+
+.fikrlar-bolim h2{
+font-size: 40px;
+}
+
+.as-b-list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.as-b-list li{
+  margin-top: 40px;
+}
+
+.strategiya-bolim{
+width: 100%;
+height: auto;
+/* border-bottom: 1px solid; */
+margin-bottom: 100px;
+}
+
+.stra-card{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.stra-card li{
+  border: 0.5px solid;
+width: 348px;
+height: 185px;
+border-radius: 5px;
+border-color: rgb(167, 167, 176);
+text-align: center;
+}
+
+.money-card{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.money-card-list{
+display: flex;
+justify-content: space-around;
+
+}
+
+.money-card-list ul{
+/* border: 1px solid; */
+box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.171) ;
+border-radius: 5px;
+text-align: center;
+width: 322px;
+height: 356px;
+padding-right: 30px;
+padding-left: -30px;
+}
+
+
+span{
+  font-size: 50px;
+  color: #02897A;
+}
+
+.oxirgi-bolim{
+  text-align:center ;
+  margin-bottom: 100px;
+  /* border-radius: 40px; */
+}
+.oxirgi-bolim div{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.oxirgi-bolim ul{
+  border: 2px solid rgba(92, 90, 90, 0.303);
+  /* padding-left: -20px; */
+  padding-right: 20px;
+  padding: 10px;
+
+}
+
+.footer-lsit{
+  width: 100px;
+  height: auto;
+  display: flex;
+  /* justify-items: center; */
+  /* justify-content: space-around; */
+}
+
+footer ul{
+margin-left: 100px;
+}
+
+footer input{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-color: #02897986;
+}
+
+.ppp{
+  margin: 40px;
+  margin-left: 500px;
+}
